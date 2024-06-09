@@ -1,0 +1,4 @@
+INICIAR_PROCESO /scripts_memoria/LOCK_A
+INICIAR_PROCESO /scripts_memoria/LOCK_B
+INICIAR_PROCESO /scripts_memoria/LOCK_C
+INICIAR_PROCESO /scripts_memoria/LOCK_D
