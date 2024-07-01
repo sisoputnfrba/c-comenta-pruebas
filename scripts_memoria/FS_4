@@ -1,0 +1,9 @@
+SET AX 0
+SET BX 250
+SET CX 70
+IO_FS_CREATE FS pesado.txt
+IO_FS_TRUNCATE FS pesado.txt BX
+IO_FS_DELETE FS archivo1.txt
+IO_FS_TRUNCATE FX archivo2.txt CX
+SET DX 0
+EXIT

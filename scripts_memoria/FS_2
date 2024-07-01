@@ -1,0 +1,6 @@
+SET AX 10
+IO_FS_CREATE FS archivo1.txt
+IO_FS_CREATE FS archivo2.txt
+IO_FS_TRUNCATE FS archivo1.txt AX
+IO_FS_TRUNCATE FS archivo2.txt AX
+EXIT
